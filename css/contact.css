@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(228, 186, 186);
+}
+
+.menu * {
+    /* font-family: 'Kalnia Glaze', serif; */
+    color: aliceblue;
+    font-weight: bold;
+    display: inline;
+}
+
+.menu li {
+    margin: 3%;
+}
+
+ul li a b:hover {
+    /* font-size: larger; */
+    color: white;
+    /* text-shadow: rgb(202, 129, 224) 1px 0 10px; */
+    text-shadow: 0px 0px 20px rgb(248, 55, 113);
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+
+.menu {
+    font-size: 35px;
+    font-style: italic;
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 3%;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    /* height: 80px; */
+} 
+
+#title {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+
+.contact {
+    padding-top: 3%; 
+    margin-left: 15%; 
+    margin-right: 15%;
+}
